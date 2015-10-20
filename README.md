@@ -16,7 +16,7 @@ Sobre a ação, segue algumas informações:
 * O preço original do vinho é R$ 962,00 e preço com o desconto aplicado é R$ 673,40. Lembre-se que sócios do ClubeW tem mais 15% de desconto.
 * Pensamos em ter um contador no topo da página, que pode desenvolvido em javascript... Sinta-se livre quanto ao uso de frameworks.
 
-Contamos com você para o sucesso dessa ação! Precisamos das soluções até aos meio-dia de 22 de outubro, quinta-feira, para que nosso time possa preparar o envio dos emails.
+Contamos com você para o sucesso dessa ação! Precisamos das soluções até ao meio-dia de 22 de outubro, quinta-feira, para que nosso time possa preparar o envio dos emails.
 
 Boa sorte!
 
