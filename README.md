@@ -18,6 +18,10 @@ Sobre a ação, segue algumas informações:
 
 Contamos com você para o sucesso dessa ação! Precisamos das soluções até ao meio-dia de 22 de outubro, quinta-feira, para que nosso time possa preparar o envio dos emails.
 
-Boa sorte!
+Para aceitar essa missão, fork esse repositório e, após terminar, faça um pull request.
 
+Boa sorte! :D
+
+
+Obs.: Esse é um cenário fictício. Não usaremos seu trabalho em alguma campanha real. ;)
 
