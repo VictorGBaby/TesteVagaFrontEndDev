@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vinho do Porto Dow`s Vintage 1997</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/Portostyle.css">
+</head>
+<body ng-app="myApp">
+
+	<header>
+		<div class="col-md-12 headerPorto">
+			<div class="row">
+				<div class="col-md-5">
+					<p class="headerOne">Aproveite essa oferta única</p>
+				</div>
+				<div class="col-md-2 24_logo">
+					<img src="images/24h_Wine.png">
+				</div>
+				<div class="col-md-4" ng-controller="clockCtrl">
+					<p class="headerTwo">Acaba em</p> <span>{{ timeTillEvent.hoursLeft }}</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<article>
+			<div class="col-md-12 articleOne">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="vinho_div">
+							<p>Vinho do Porto<p>
+							<p>Dow`s Vintage 1997</p>
+						</div>
+						<div class="port_div">
+							<img src="images/port.png" alt="Portugal"> <span>Região, País</span>
+						</div>
+						<div class="c_div">
+							<img src="images/comments.png" alt="Comentario">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<img class="vinhoPorto" src="images/vinho_porto.png" alt="Vinho do Porto Dow`s Vintage 1997">
+					</div>
+					<div class="col-md-5">
+						<div class="valor_div">
+							<p>De R$ 999,99 por</p>
+						</div>
+						<div class='desconto_div'>
+							<p>R$ 849,50</p>
+						</div>
+						<div class="choose">
+							<div class="input-group">
+								<select class="form-control" id="quant">
+								    <option>1</option>
+								    <option>2</option>
+								    <option>3</option>
+								    <option>4</option>
+								</select>
+
+								<button type="button" id="btn" class="btn btn-success">Adicionar</button>
+							</div>
+						</div>
+						<div class="socios_div">
+							<p>Sócios ClubeW: R$700,00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article>
+			<div class="col-md-12 articleTwo">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-6">
+								<h1 class="h3_compo">Composição e Serviço</h1>
+							</div>
+							<div class="col-md-6">
+								<h1 class="h3_somm">Sommelier Wine</h1>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="row">
+									<ol class="counter olOne">
+										<li><span class="tag">Addy Osmani:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class='tag'>Zeno Rocha:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class="tag">Eduardo Shiota:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class="tag">William Oliveira:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+									</ol>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<ol class="counter olTwo">
+										<li><span class="tag">HTML:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class="tag">CSS:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class="tag">Javascript:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+										<li><span class="tag">Tipografia:</span> <p>Lorem ipsum dolor sit amet, consecteur adipisinc elit.</p></li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>	
+		</article>
+	</section>
+
+	<footer>
+		<div class="col-md-12">
+			<div class="row footer">
+				<center><p>*Essa oferta está disponivel apenas no dia 20 de Outubro até as 24h (Horário de Brasília).</p></center>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/timer.js"></script>
+</body>
+</html>
