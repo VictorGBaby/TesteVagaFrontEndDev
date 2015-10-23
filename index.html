@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/Portostyle.css">
 </head>
-<body ng-app="myApp">
+<body>
 
 	<header>
 		<div class="col-md-12 headerPorto">
@@ -18,8 +18,8 @@
 				<div class="col-md-2 24_logo">
 					<img src="images/24h_Wine.png">
 				</div>
-				<div class="col-md-4" ng-controller="clockCtrl">
-					<p class="headerTwo">Acaba em</p> <span>{{ timeTillEvent.hoursLeft }}</span>
+				<div class="col-md-4 wrap" ng-app="app">
+					<div class="time-to"><p class="headerTwo">Acaba em</p> <span countdown="" date="October 23, 2015 12:00:00"></span></div>
 				</div>
 			</div>
 		</div>
@@ -126,6 +126,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="js.angular-timer.js"></script>
 	<script src="js/timer.js"></script>
 </body>
 </html>
