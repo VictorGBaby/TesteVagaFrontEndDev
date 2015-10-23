@@ -1,0 +1,252 @@
+html {
+	background-color: white;
+	height: 100%;
+}
+
+.headerPorto {
+	height: 120px;
+	background-color: #383838;
+}
+
+header p {
+	color: white;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	height: 100%;
+	background-size: 100% auto;
+	background-color: #F0F0F0;
+}
+
+.circle-text {
+    width:50%;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 200%;
+    height:0;
+    padding-bottom: 200%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    background: white; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+
+.circle-text div {
+    float: left;
+    width: 200%;
+    padding-top: 90%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: black;
+}
+
+.24_logo {
+	width: 118px;
+}
+
+.24_logo img {
+	position: relative;
+	top: 30px;
+}
+
+.headerOne {
+	margin-top: 11%;
+	text-align: right;
+	font-size: 18px;
+}
+
+.headerTwo {
+	margin-top: 13%;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	right: 50px;
+}
+
+
+
+.vinhoPorto {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.vinho_div {
+	position: relative;
+	left: 220px;
+	top: 120px;
+}
+
+.vinho_div p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.port_div {
+	position: relative;
+	top: 110px;
+}
+
+.port_div {
+	display: inline;
+	float:right;
+	margin-top: 20px;
+}
+
+.port_div img {
+	position: relative;
+	bottom: 5px;
+}
+
+.port_div span {
+	font-size: 16px;
+}
+
+.c_div {
+	position: relative;
+	top: 180px;
+}
+
+
+.c_div img {
+	position: relative;
+	left: 160px;
+	float: right;
+}
+
+.valor_div {
+	position: relative;
+	top: 160px;
+	left: 100px;
+}
+
+.desconto_div {
+	position: relative;
+	top: 150px;
+	left: 80px;
+}
+
+.desconto_div p {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.choose {
+	position: relative;
+	top: 150px;
+	left: 50px;
+}
+
+#quant {
+	display: inline;
+	background-color: grey;
+	border: none;
+	color: black;
+	width: 50px;
+}
+
+#btn {
+	margin-left: 10px;
+	width: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+	bottom: 5px;
+}
+
+.socios_div {
+	position: relative;
+	top: 150px;
+	left: 50px;
+}
+
+.socios_div p {
+	font-size: 16px;
+}
+
+.h3_compo {
+	float: right;
+	margin-right: 15px;
+	margin-top: 50px;
+}
+
+.h3_somm {
+	position: relative;
+	left: 40px;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.counter li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+.counter li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 120%;
+  background-color: rgb(193,193,193);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.olOne {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+}
+
+.olTwo {
+	margin-top: 58px;
+	margin-left: 30px;
+}
+
+.tag {
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.olOne li {
+	margin-top: 30px;
+}
+
+.olOne li p {
+	margin-left: 40px;
+	font-size: 16px;
+}
+
+.olTwo li {
+	margin-top: 30px;
+}
+
+.olTwo li p {
+	margin-left: 40px;
+	font-size: 16px;
+}
+
+.footer {
+	margin-top: 100px;
+	background-color: #F0F0F0;
+	height: 60px;
+	}
+
+footer p {
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
